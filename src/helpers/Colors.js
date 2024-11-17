@@ -1,0 +1,13 @@
+const Colors = {
+  brand: '#FF0A0A',
+  black: '#000000',
+  white: '#ffffff',
+  success: '#37BD6B',
+  successBg: '#B6EACD',
+  danger: '#F33535',
+  border: '#E7E7E7',
+  neutral: '#FFF8F0',
+  neutralTxt: '#626262',
+};
+
+export default Colors;
