@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Colors from '../../../helpers/Colors';
 
 const HomeTemplateStyle = styled.div`
   position: relative;
@@ -33,6 +34,7 @@ const HomeTemplateStyle = styled.div`
     font-weight: 400;
     line-height: 21px;
     text-align: left;
+    color: ${Colors.neutralTxt};
   }
 
   @media screen and (min-width: 768px) {

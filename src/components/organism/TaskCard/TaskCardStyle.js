@@ -33,7 +33,7 @@ const TaskCardStyle = styled.div`
     background-color: ${Colors.black};
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 12px;
     padding: 8px 12px;
     cursor: pointer;
     font-size: 14px;
@@ -84,6 +84,7 @@ const TaskCardStyle = styled.div`
     border-radius: 4px;
     display: inline-block;
     font-weight: 500;
+    font-size: 14px;
   }
 
   .task-card__priority.low {
@@ -99,6 +100,10 @@ const TaskCardStyle = styled.div`
   .task-card__priority.high {
     background-color: #f8d7da;
     color: #721c24;
+  }
+  .task-card__duedate {
+    color: ${Colors.neutralTxt};
+    font-size: 14px;
   }
 
   @media screen and (min-width: 1280px) {

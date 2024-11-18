@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Colors from '../../../helpers/Colors';
 
 const HeaderStyle = styled.header`
-  box-shadow: 0px 12px 16px -4px #0c1a240a;
   .header {
     display: flex;
     align-items: center;
