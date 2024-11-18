@@ -2,11 +2,7 @@ import React from 'react';
 import HomeTemplate from '../template/NotFoundUi/NotFoundUi/HomeTemplate/HomeTemplate';
 
 const Home = () => {
-  return (
-    <div>
-      <HomeTemplate />
-    </div>
-  );
+  return <HomeTemplate />;
 };
 
 export default Home;

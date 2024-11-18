@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CheckBoxStyle from './CheckboxStyle';
 
-const Checkbox = (onClick) => {
+const Checkbox = ({onClick}) => {
   const [check, setCheck] = useState < boolean > true;
 
   return (

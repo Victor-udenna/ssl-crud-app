@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/tasks/:id" element={<TaskDetailsPage />} />
+        <Route path="/task-details" element={<TaskDetailsPage />} />
         <Route path="/*" element={<NotfoundPage />} />
       </Routes>
     </Router>

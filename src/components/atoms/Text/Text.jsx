@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Text = (value, onClick, className = '') => {
+const Text = ({value, onClick, className = ''}) => {
   return (
     <p onClick={onClick} className={className}>
       {value}

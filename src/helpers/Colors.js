@@ -6,7 +6,7 @@ const Colors = {
   successBg: '#B6EACD',
   danger: '#F33535',
   border: '#E7E7E7',
-  neutral: '#FFF8F0',
+  neutral: '#f2f0f0',
   neutralTxt: '#626262',
 };
 
