@@ -60,7 +60,7 @@ const CreateTaskModalStyle = styled.div`
     background: #fff;
     width: 100%;
     max-width: 500px;
-    height: 90dvh;
+    height: 95dvh;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

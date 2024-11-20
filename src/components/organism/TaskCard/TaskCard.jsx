@@ -20,6 +20,7 @@ const TaskCard = ({ task, onClick }) => {
       dispatch(updateTask(updatedTask));
       setStatus(newStatus);
       setDropdownOpen(false);
+      window.location.reload();
     } catch (error) {
       console.error('Failed to update task status:', error);
     }
