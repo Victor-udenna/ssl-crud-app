@@ -22,3 +22,8 @@ export const deleteTaskFromDb = async (id) => {
   const db = await dbPromise;
   return db.delete('tasks', id);
 };
+
+export const getTaskFromDb = async (id) => {
+  const db = await dbPromise;
+  return db.get('tasks', id);
+};

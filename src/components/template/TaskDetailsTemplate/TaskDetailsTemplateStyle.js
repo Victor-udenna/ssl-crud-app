@@ -4,7 +4,7 @@ import Colors from '../../../helpers/Colors';
 const TaskDetailsTemplateStyle = styled.div`
   .task {
     position: relative;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
@@ -33,17 +33,17 @@ const TaskDetailsTemplateStyle = styled.div`
       display: inline-block;
     }
 
-    .task-priority__value.low {
+    .task-priority__value.Low {
       background-color: #d4edda;
       color: #155724;
     }
 
-    .task-priority__value.medium {
+    .task-priority__value.Medium {
       background-color: #fff3cd;
       color: #856404;
     }
 
-    .task-priority__value.high {
+    .task-priority__value.High {
       background-color: #f8d7da;
       color: #721c24;
     }

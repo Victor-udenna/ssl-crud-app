@@ -12,8 +12,8 @@ const DetailsHeaderStyle = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: ${Colors.white};
     z-index: 10;
   }

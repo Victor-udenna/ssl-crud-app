@@ -87,17 +87,17 @@ const TaskCardStyle = styled.div`
     font-size: 14px;
   }
 
-  .task-card__priority.low {
+  .task-card__priority.Low {
     background-color: #d4edda;
     color: #155724;
   }
 
-  .task-card__priority.medium {
+  .task-card__priority.Medium {
     background-color: #fff3cd;
     color: #856404;
   }
 
-  .task-card__priority.high {
+  .task-card__priority.High {
     background-color: #f8d7da;
     color: #721c24;
   }

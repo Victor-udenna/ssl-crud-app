@@ -3,7 +3,7 @@ import Colors from '../../../helpers/Colors';
 
 const TaskSummaryStyle = styled.div`
   .task-summary {
-    padding-top: 100px;
+    padding-top: 140px;
   }
   .task__summary-container {
     display: grid;

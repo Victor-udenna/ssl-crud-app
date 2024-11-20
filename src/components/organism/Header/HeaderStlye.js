@@ -7,8 +7,8 @@ const HeaderStyle = styled.header`
     align-items: center;
     gap: 12px;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     position: fixed;
     left: 0;
     right: 0;
@@ -67,6 +67,28 @@ const HeaderStyle = styled.header`
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
+  }
+
+  .header-filter__dropdown {
+    position: absolute;
+    top: 20;
+    right: 20;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    z-index: 10;
+  }
+
+  .header-filter__dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .header-filter__dropdown:hover {
+    background-color: #f1f1f1;
   }
 
   @media screen and (min-width: 768px) {
